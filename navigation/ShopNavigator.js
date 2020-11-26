@@ -8,5 +8,10 @@ const LoginNavigator = createStackNavigator( {
   LoginRegister : LoginRegisterScreen,
   Login: LoginScreen
 
+},
+{
+  defaultNavigationOptions: {
+    headerShown: false
+  }
 })
 export default createAppContainer(LoginNavigator)
